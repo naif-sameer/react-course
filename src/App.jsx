@@ -1,4 +1,6 @@
 import Home from "./pages/home/Home";
+import Todo from "./pages/todo/Todo";
+import { date } from "./pages/todo/signal";
 
 // const Title = () => {
 //   const age = 21;
@@ -21,7 +23,8 @@ import Home from "./pages/home/Home";
 function App() {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
+      <Todo />
     </div>
   );
 }
